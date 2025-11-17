@@ -342,27 +342,6 @@ payments
 - **Validações completas**: Em todos os modelos
 - **Nested Attributes**: Criação de planos com múltiplas cobranças em uma única requisição
 
-## Health Check
-
-Verificar se a API está online:
-
-**GET** `http://localhost:3000/health`
-
-Ou via curl:
-```bash
-curl http://localhost:3000/health
-```
-
-## Troubleshooting
-
-### Erro de conexão com PostgreSQL
-
-Certifique-se que o PostgreSQL está rodando:
-```bash
-sudo service postgresql status
-sudo service postgresql start
-```
-
 ### Erro de permissões
 
 Crie um usuário PostgreSQL ou ajuste as credenciais em `config/database.yml`
